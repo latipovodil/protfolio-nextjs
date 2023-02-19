@@ -36,7 +36,7 @@ export default function Hero({}: Props) {
           alignItems: "center",
         }}
       >
-        <Image
+        <img
           style={{ width: "120px", borderRadius: "50%" }}
           src="https://i.pinimg.com/originals/96/ac/ac/96acac30a26959be8e75dc18b84c8dff.jpg"
           alt="my img"
