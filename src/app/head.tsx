@@ -6,7 +6,36 @@ export default function Head() {
       <link rel="icon" href="/favicon.ico" />
       <meta property="og:title" content="Odilbek Latipov Portfoliosi" />
       <meta property="og:type" content="website" />
+     
       {/* <link
+        rel="mask-icon"
+        href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
+        color="#000000"
+      /> */}
+
+      <meta
+        name="description"
+        content="Bu sayt mening(odilbek_latipov) portfolio uchun yaratgan saytim va bu saytni men Next.js, Redux Toolkit, TypeScript,scss,react,emotion,tailwind va yana ayrim kutubxonalar yordamida tayyorlaganman !!! Va SEO optimisation qilingan sayt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quia dolorum, aperiam exercitationem cumque magni quis error soluta labore fugiat porro nihil id, rem provident neque repellat expedita eveniet beatae. "
+      />
+      <title>Portfolio Odilbek</title>
+    </>
+  );
+}
+
+{/* <link
+        rel="alternate icon"
+        className="js-site-favicon"
+        type="image/png"
+        href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
+      />
+      <link
+        // odilbekl/homework-4.3-JS-Dom-ToDo
+        rel="icon"
+        className="js-site-favicon"
+        type="image/svg+xml"
+        href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
+      /> */}
+ {/* <link
         rel="preconnect"
         href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
       />
@@ -100,30 +129,3 @@ export default function Head() {
         name="browser-optimizely-client-errors-url"
         content="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
       /> */}
-
-      <link
-        rel="mask-icon"
-        href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
-        color="#000000"
-      />
-      <link
-        rel="alternate icon"
-        className="js-site-favicon"
-        type="image/png"
-        href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
-      />
-      <link
-        // odilbekl/homework-4.3-JS-Dom-ToDo
-        rel="icon"
-        className="js-site-favicon"
-        type="image/svg+xml"
-        href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
-      />
-      <meta
-        name="description"
-        content="Bu sayt mening(odilbek_latipov) portfolio uchun yaratgan saytim va bu saytni men Next.js, Redux Toolkit, TypeScript,scss,react,emotion,tailwind va yana ayrim kutubxonalar yordamida tayyorlaganman !!! Va SEO optimisation qilingan sayt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quia dolorum, aperiam exercitationem cumque magni quis error soluta labore fugiat porro nihil id, rem provident neque repellat expedita eveniet beatae. "
-      />
-      <title>Portfolio Odilbek</title>
-    </>
-  );
-}
