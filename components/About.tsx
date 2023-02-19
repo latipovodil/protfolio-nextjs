@@ -1,12 +1,11 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 type Props = {};
 export default function About({}: Props) {
   return (
     <div className="about">
       <h3 className="about__title">About</h3>
-      <Image
+      <img
         className="about__img1"
         src="https://i.pinimg.com/564x/06/93/21/069321a79915e870ccb247742b1efd52.jpg"
         alt="img"
