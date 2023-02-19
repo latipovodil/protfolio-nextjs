@@ -6,7 +6,7 @@ export default function Head() {
       <link rel="icon" href="/favicon.ico" />
       <meta property="og:title" content="Odilbek Latipov Portfoliosi" />
       <meta property="og:type" content="website" />
-      <link
+      {/* <link
         rel="preconnect"
         href="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
       />
@@ -16,13 +16,13 @@ export default function Head() {
       />
 
       <meta name="user-login" content="odilbekl" />
-      <link rel="sudo-modal" href="/sessions/sudo_modal" />
-      <meta name="viewport" content="width=device-width" />
+      
       <meta
         name="twitter:image:src"
         content="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
       />
-      <meta name="twitter:site" content="@Odilbek Portfolio" />
+
+      <meta name="twitter:site" content="Odilbek Portfolio" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Odilbek Portfolio" />
       <meta name="twitter:description" content="Odilbek Latipov Portfolio" />
@@ -99,7 +99,7 @@ export default function Head() {
       <meta
         name="browser-optimizely-client-errors-url"
         content="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
-      />
+      /> */}
 
       <link
         rel="mask-icon"
