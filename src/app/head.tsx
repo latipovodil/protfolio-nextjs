@@ -28,7 +28,7 @@ export default function Head() {
       <meta name="twitter:site" content="Odilbek Portfolio" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Odilbek Portfolio" />
-      <meta name="twitter:description" content="Odilbek Latipov Portfolio" />
+      <meta name="twitter:description" content="Bu sayt mening(odilbek_latipov) portfolio uchun yaratgan saytim va bu saytni men Next.js, Redux Toolkit, TypeScript,scss,react,emotion,tailwind va yana ayrim kutubxonalar yordamida tayyorlaganman !!! Va SEO optimisation qilingan sayt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quia dolorum, aperiam exercitationem cumque magni quis error soluta labore fugiat porro nihil id, rem provident neque repellat expedita eveniet beatae. " />
       <meta
         property="og:image"
         content="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
