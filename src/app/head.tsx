@@ -4,7 +4,10 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
 
       <link rel="icon" href="/favicon.ico" />
-      <meta property="og:title" content="Odilbek Latipov Portfoliosi" />
+      <meta
+        property="og:title"
+        content="Bu sayt mening(odilbek_latipov) portfolio uchun yaratgan saytim va bu saytni men Next.js, Redux Toolkit, TypeScript,scss,react,emotion,tailwind va yana ayrim kutubxonalar yordamida tayyorlaganman !!! Va SEO optimisation qilingan sayt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quia dolorum, aperiam exercitationem cumque magni quis error soluta labore fugiat porro nihil id, rem provident neque repellat expedita eveniet beatae. "
+      />
       <meta property="og:type" content="website" />
       <link
         rel="preconnect"
@@ -16,7 +19,7 @@ export default function Head() {
       />
 
       <meta name="user-login" content="odilbekl" />
-      
+
       <meta
         name="twitter:image:src"
         content="https://static.agilitycms.com/illustrations/blog-illustrations/benefits-of-next.js.jpg?w=800"
