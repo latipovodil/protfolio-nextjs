@@ -9,7 +9,7 @@ export default function ContactMe({}: Props) {
 
       <div className="contact__title">
         <h4>I have get what you need.</h4>
-        <span>Let's Talk.</span>
+        <span>Lets Talk.</span>
       </div>
 
       <div className="contact_main">
