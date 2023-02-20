@@ -1,4 +1,5 @@
 import About from "components/About";
+import ContactMe from "components/ContactMe";
 import Exper from "components/exper";
 import Header from "components/Header";
 import Hero from "components/Hero";
@@ -29,9 +30,9 @@ export default function Home() {
         <Projects />
       </section>
 
-      {/* Contact Me */}
-
-      {/* Contact Me */}
+      <section id="contactMe">
+        <ContactMe />
+      </section>
     </div>
   );
 }

@@ -147,6 +147,9 @@ ol {
 ///
 //////////////////////////////////  Skills
 
+img {
+  height: auto;
+}
 /////////////////////////////////  Projects
 ///
 ///
@@ -156,7 +159,7 @@ ol {
 ///
 
 .projects {
-  margin-top: 120px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -169,27 +172,66 @@ ol {
 .projects__el {
   position: relative;
   display: flex;
-  overflow-y: scroll;
   overflow-y: hidden;
+  overflow-x: scroll;
   scroll-snap-align: x;
   scroll-snap-type: mandatory;
   scroll-snap-stop: x;
   z-index: 20;
-  margin-top: 20px;
-  >img{
-    background-color: transparent;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 95vw;
+  margin: 0 auto;
+  gap: 10px;
+  margin-top: 30px;
+  > div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    > div {
+      > h4 {
+        color: gray;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      > p {
+        color: gray;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    > img {
+      background-color: transparent;
+      width: 325px;
+      overflow: hidden;
+      border-radius: 8px;
+      margin: 10px;
+      animation-name: projects__img;
+      animation-iteration-count: 3;
+      animation-duration: 1s;
+    }
   }
 }
+
+@keyframes projects__img {
+  0% {
+    margin-top: -100px;
+    opacity: 0;
+  }
+}
+
 .projects__animation {
   position: absolute;
-  top: 100%;
-  background-color: #f7ac0a1f;
+  top: 30%;
+  background-color: rgba(247, 172, 10, 0.045);
   left: -200px;
   height: 300px;
   display: block;
   width: 100%;
-  transform: rotate(161deg);
-  width: 150vw;
+  transform: rotate(160deg);
+  width: 200vw;
 }
 
 ///
@@ -228,6 +270,102 @@ ol {
     opacity: 0;
   }
 }
+
+//////////////////////////////////////////////////  contactMe
+///
+///
+///
+///
+///
+///
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  > div {
+    color: #fff;
+  }
+}
+
+.contact__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  > h4 {
+    font-weight: bold;
+    color: #fff;
+  }
+  > span {
+    margin-top: -18px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #f7ab0a;
+    font-size: medium;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+
+form{
+  >div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  >input{
+    display: block;
+    width: 375px;
+  }
+}
+
+.contact__inputs {
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  border-bottom: 3px solid transparent;
+  color: gray;
+  font-weight: 500;
+  background-color: #333333;
+  transition-duration: 0.5s;
+  &::placeholder {
+    color: gray;
+  }
+  &:focus {
+    border-color: #82828269;
+  }
+}
+
+.contact_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  > div {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    > p {
+      color: #fff;
+      margin: 0;
+    }
+    > svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+///
+///
+///
+///
+///
+///
+///
+///////////////////////////////////////////////////  contactMe
 
 .experCard__box {
   margin: 0 100px;
